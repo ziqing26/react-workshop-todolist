@@ -31,7 +31,7 @@ function OverviewBox(props) {
     // The ?? operator is called the nullish-coalescing operator
     // It sets the LHS of the operator, i.e. savedName, if LHS is not null
     // It sets the RHS of the operator, i.e. "John Doe", if LHS is null
-    setName(savedName ?? "John Doe");
+    setName(savedName ?? "Ziqing");
   }, []);
 
   return (
